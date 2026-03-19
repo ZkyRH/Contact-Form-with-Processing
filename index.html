@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>Contact Form</h2>
+    
+        <form action="https://formspree.io/f/xqeyykad" method="POST">
+            <label for="fname">FirstName:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="course">Course Sectio:n</label><br>
+            <select name="course" id="course" size="4" ><br>
+                <option value="" disabled selected>Select what course you are in</option>
+                <option value="CIS 130">CIS 130</option>
+                <option value="Erm IDK">Erm IDK</option>
+                <option value="None of your business Sucka">None of your business Sucka</option>
+            </select><br><br>
+            <label for="reason">Reason for Contact:</label><br>
+            <input type="radio" id="reason" name="reason" value="No Real Reason">No Real Reason<br>
+            <input type="radio" id="reason" name="reason" value="Because I was told to">Because I was told to<br>
+            <input type="radio" id="reaosn" name="reason" value="Emergency">Emergency<br><br>
+            <label for="Msg">Message</label><br>
+            <textarea name="Msg" id="Msg" cols="50" rows="5">Enter Message Here</textarea><br>
+            <input class="sub" type="submit" value="Submit">
+        </form>
+    </body>
+</html>
